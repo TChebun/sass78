@@ -1,0 +1,35 @@
+%TMfz20px {
+  // Tilda Medium, font-size: 20px (1.25rem)
+  font-family: "TM", sans-serif;
+  font-size: 1.25rem;
+}
+
+%flexSBCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%button {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 0;
+  cursor: pointer;
+  transition: 0.3s ease-in;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+%i_button {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-repeat: no-repeat;
+  box-sizing: cover;
+}
